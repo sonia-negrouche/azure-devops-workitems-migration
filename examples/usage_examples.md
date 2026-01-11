@@ -37,3 +37,14 @@ $env:ADO_TARGET_PROJECT="TargetProject"
 $env:ADO_TARGET_PAT="yyyyy"
 
 $env:ADO_ATTACHMENTS_DIR="C:\temp\ado_attachments"
+
+```Bash examples (Linux / macOS)
+export ADO_SOURCE_ORG_URL="https://dev.azure.com/sourceOrg"
+export ADO_SOURCE_PROJECT="SourceProject"
+export ADO_SOURCE_PAT="xxxxx"
+
+export ADO_TARGET_ORG_URL="https://dev.azure.com/targetOrg"
+export ADO_TARGET_PROJECT="TargetProject"
+export ADO_TARGET_PAT="yyyyy"
+
+export ADO_ATTACHMENTS_DIR="$HOME/ado_attachments"
