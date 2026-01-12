@@ -5,6 +5,11 @@ Stdlib-only Python scripts to migrate Azure DevOps work items between projects.
 Covers parent/child relationships, related links, comments, attachments, and
 process diagnostics, using Azure DevOps REST APIs with no external dependencies.
 
+## Why this repository?
+
+This repository provides **small, readable, and dependency-free scripts** that you
+can understand, adapt, and run safely in constrained enterprise environments.
+
 ## Configuration (required)
 
 Use env vars (recommended):
