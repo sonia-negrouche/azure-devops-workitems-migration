@@ -1,11 +1,9 @@
 # Azure DevOps Work Items Migration Scripts (stdlib-only)
 
-A set of **Python scripts (stdlib only)** to copy / enrich Azure DevOps Work Items from a **source** project to a **target** project using Azure DevOps REST APIs.
+Stdlib-only Python scripts to migrate Azure DevOps work items between projects.
 
-This repo is intentionally **public-friendly**:
-- no hardcoded org URLs
-- no hardcoded project names
-- no Personal Access Tokens (PATs) in code
+Covers parent/child relationships, related links, comments, attachments, and
+process diagnostics, using Azure DevOps REST APIs with no external dependencies.
 
 ## Configuration (required)
 
