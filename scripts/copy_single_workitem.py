@@ -16,8 +16,8 @@ from urllib.parse import quote
 from _common import API_VERSION, AdoConn, env, require, http_json
 
 REFLECTED = "Custom.ReflectedWorkItemId"
-TARGET_WB_TYPE = "Work Bundle"
-SRC_WB_TYPES = ("Work Bundle","Workbundle","WorkBundle")
+TARGET_WB_TYPE = "Epic"
+SRC_WB_TYPES = ("Epic","Epic","Epic")
 
 
 def get_work_item(conn: AdoConn, wid: int):
